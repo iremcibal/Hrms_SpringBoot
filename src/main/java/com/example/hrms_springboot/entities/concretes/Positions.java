@@ -10,8 +10,8 @@ import javax.persistence.*;
 @Entity
 @Table(name="positions")
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
+@NoArgsConstructor //Parametresiz Const
+@AllArgsConstructor //Parametreli Const
 public class Positions {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
